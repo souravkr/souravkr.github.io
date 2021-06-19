@@ -60,7 +60,7 @@
    * Countdown timer
    */
   let countdown = select('.countdown');
-  const output = countdown.innerHTML;
+  const output = 2;
 
   const countDownDate = function() {
     let timeleft = new Date(countdown.getAttribute('data-count')).getTime() - new Date().getTime();
